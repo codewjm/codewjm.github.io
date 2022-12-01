@@ -9982,3 +9982,27 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+
+.devicon {
+    font-size: 80px;
+}
+
+.redux-devicon-contianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 67px;
+}
+
+.redux-title {
+  font-size: 15px !important;
+  font-weight: 600;
+  color: #6f42c1;
+}
+
+.devi-img {
+  height: 80px;
+  width: 80px;
+}
