@@ -9996,6 +9996,20 @@ h6,
   font-size: 67px;
 }
 
+.webpack-devicon-contianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 67px;
+}
+
+.webpack-title {
+  font-size: 17px !important;
+  font-weight: 600;
+  color: #1d78c1;
+}
+
 .redux-title {
   font-size: 15px !important;
   font-weight: 600;
