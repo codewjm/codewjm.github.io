@@ -638,6 +638,25 @@ pre code {
   margin-left: -15px;
 }
 
+/* .skills-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-right: -15px;
+  margin-left: -15px;
+} */
+
+
+.skills-group {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 80px auto 80px;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 15px;
+}
+
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
