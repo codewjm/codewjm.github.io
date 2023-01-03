@@ -10007,6 +10007,10 @@ h6,
     font-size: 80px;
 }
 
+.portfolio-container {
+  margin-bottom: 100px;
+}
+
 .redux-devicon-contianer {
   display: flex;
   flex-direction: column;
