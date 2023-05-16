@@ -634,6 +634,7 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
+  /* align-items: center; */
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -9945,8 +9946,39 @@ h6,
   border-radius: 60px;
 }
 
+/* added code */
+
+/* #portfolio {
+  display: flex !important;
+  justify-content: center !important;
+} */
+
+/* .portfolio-box {
+  display: flex;
+  justify-content: center;
+} */
+
+.first {
+  /* display: flex; */
+  /* justify-content: space-between !important; */
+  /* position: relative !important; */
+  /* left: 10px; */
+  margin-left: 70px;
+  top: 0px;
+}
+
+.third {
+  /* display: flex; */
+  /* justify-content: space-between !important; */
+  position: relative !important;
+  /* left: 10px; */
+  margin-right: 250px;
+  top: 0px;
+}
+
 .portfolio-item .portfolio-btn {
-  position: absolute;
+  flex: 0 0 auto;
+  position: relative;
   width: 0;
   height: 0;
   top: 50%;
@@ -10008,7 +10040,10 @@ h6,
 }
 
 .portfolio-container {
-  margin-bottom: 100px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  /* margin-bottom: 100px; */
 }
 
 .redux-devicon-contianer {
